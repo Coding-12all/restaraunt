@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="icon.jpg">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Restaurant</h1>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <div class="menu-category" id="breakfast-menu">
+            <h3>Breakfast</h3>
+            <div class="menu-item" onclick="showItemAmount('$8.99')">
+                <img src="dosa.jpg" alt="Breakfast 1" >
+                <h4>Dosa</h4>
+                <p>Dosa is a popular South Indian dish that has gained widespread popularity across India and internationally. It is a thin, crispy pancake made from a fermented batter primarily consisting of rice and black gram (urad dal).</p>
+                <p class="price">$10</p>
+            </div>
+            <div class="menu-item1" onclick="showItemAmount('$7.99')">
+                <img src="vada.jpg" alt="Breakfast 2">
+                <h4>Vada</h4>
+                <p>Vada is a popular South Indian snack made from a batter consisting primarily of urad dal (black gram) and spices. The batter is prepared by soaking urad dal and grinding it to a smooth consistency along with spices like green chilies, ginger, and curry leaves.</p>
+                <p class="price">$30</p>
+            </div>
+            <div class="menu-item" onclick="showItemAmount('$8.99')">
+                <img src="chapati.jpg" alt="Breakfast 1" >
+                <h4>chapathi</h4>
+                <p>Chapati, also known as roti, is a staple Indian flatbread made from whole wheat flour, water, and a pinch of salt. It is a versatile accompaniment to various Indian dishes and is enjoyed across the country.</p>
+                <p class="price">$10</p>
+            </div>
+            <div class="menu-item1" onclick="showItemAmount('$7.99')">
+                <img src="idly.jpg" alt="Breakfast 2">
+                <h4>idli</h4>
+                <p>Idli is a traditional South Indian steamed rice cake made from a fermented batter of rice and black lentils (urad dal). The rice and lentils are soaked, ground to a smooth paste, and allowed to ferment overnight.</p>
+                <p class="price">$10</p>
+            </div>
+            
+            <div id="amount-details"></div>
+
+    
+            <!-- Add more breakfast items as needed -->
+        </div>
+        
+        <!-- Add lunch and dinner menu items here -->
+
+        <div class="menu-category" id="breakfast-menu">
+            <h3>Lunch</h3>
+            <div class="menu-item" onclick="showItemAmount('$8.99')">
+                <img src="lunch1.jpg" alt="Breakfast 1" >
+                <h4>Food</h4>
+                <p>Chapati is typically served hot and is often paired with a variety of dishes, including both vegetarian and non-vegetarian curries. When served with a non-vegetarian curry, such as chicken curry or lamb curry, chapati serves as a delicious accompaniment that complements the flavors and spices of the curry.
+
+                </p>
+                <p class="price">$15</p>
+            </div>
+            <div class="menu-item1" onclick="showItemAmount('$7.99')">
+                <img src="lunch2.jpg" alt="Breakfast 2">
+                <h4>food</h4>
+                <p>Biryani is a fragrant and flavorful rice dish made by layering aromatic basmati rice with marinated meat (in this case, chicken) and a blend of spices. The rice is typically cooked with spices like saffron, cardamom, cinnamon, and cloves, along with herbs like mint and cilantro. The chicken is marinated in yogurt and spices,
+                </p>
+                <p class="price">$15</p>
+                </div>
+            <div class="menu-item" onclick="showItemAmount('$8.99')">
+                <img src="l1.jpg" alt="Breakfast 1" >
+                <h4>Food</h4>
+                <p>Prawn curry is typically served hot with steamed rice, naan, or crusty bread to soak up the flavorful sauce. It makes for a satisfying and comforting meal that is perfect for special occasions or weeknight dinners. Prawn curry is loved for its robust flavors, creamy texture, and versatility, making it a favorite 
+
+                </p>
+                <p class="price">$15</p>
+            </div>
+            <div class="menu-item1" onclick="showItemAmount('$7.99')">
+                <img src="l2.jpg" alt="Breakfast 2">
+                <h4>Food</h4>
+                <p>Chapati is typically served hot and is often paired with a variety of dishes, including both vegetarian and non-vegetarian curries. When served with a non-vegetarian curry, such as chicken curry or lamb curry, chapati serves as a delicious accompaniment that complements the flavors and spices of the curry.
+                    <p></p>
+                <p class="price">$15</p>
+            </div>
+            
+            <div id="amount-details"></div>
+
+    
+            <!-- Add more breakfast items as needed -->
+            <div class="menu-category" id="breakfast-menu">
+                <h3>Dinner</h3>
+                <div class="menu-item" onclick="showItemAmount('$8.99')">
+                    <img src="dinner.jpg" alt="Breakfast 1" >
+                    <h4>Food</h4>
+                <p>Chapati is typically served hot and is often paired with a variety of dishes, including both vegetarian and non-vegetarian curries. When served with a non-vegetarian curry, such as chicken curry or lamb curry, chapati serves as a delicious accompaniment that complements the flavors and spices of the curry.
+                    <p></p>
+                    <p class="price">$20</p>
+                </div>
+                <div class="menu-item1" onclick="showItemAmount('$7.99')">
+                    <img src="dinner1.jpg" alt="Breakfast 2">
+                    <h4>Food</h4>
+                <p>Chapati is typically served hot and is often paired with a variety of dishes, including both vegetarian and non-vegetarian curries. When served with a non-vegetarian curry, such as chicken curry or lamb curry, chapati serves as a delicious accompaniment that complements the flavors and spices of the curry.
+                    <p></p>
+                    <p class="price">$20</p>
+                </div>
+                <div class="menu-item" onclick="showItemAmount('$8.99')">
+                    <img src="d1.jpg" alt="Breakfast 1" >
+                    <h4>Food</h4>
+                    <p>Egg fried rice with chicken is a popular Chinese dish made by stir-frying cooked rice with scrambled eggs, diced chicken, vegetables, and a combination of soy sauce and other seasonings. It's a satisfying one-pan meal that is quick and easy to prepare, perfect for busy weeknights.</p>
+                    <p class="price">$20</p>
+                </div>
+                <div class="menu-item1" onclick="showItemAmount('$7.99')">
+                    <img src="d2.jpg" alt="Breakfast 2">
+                    <h4>Food</h4>
+                    <p>The process of making potato chips involves slicing potatoes thinly, soaking them in water to remove excess starch, and then frying them in oil until they are crispy. After frying, the chips are seasoned with the desired flavorings and packaged for sale.</p>
+                    <p class="price">$20</p>
+                </div>
+                
+                <div id="amount-details"></div>
+    
+        
+                <!-- Add more breakfast items as needed -->
+            </div>
+            
+        </div>
+        
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to our restaurant! We pride ourselves on serving delicious food made with fresh ingredients.A restaurant is a business that prepares and serves food and drinks to customers.[1] Meals are generally served and eaten on the premises, but many restaurants also offer take-out and food delivery services. Restaurants vary greatly in appearance and offerings, including a wide variety of cuisines and service models ranging from inexpensive fast-food restaurants and cafeterias to mid-priced family restaurants, to high-priced luxury establishments.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+    
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+    
+            <input type="submit" value="Submit">
+        </form>
+        <p>Reach out to us at: example@example.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Restaurant Website</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
